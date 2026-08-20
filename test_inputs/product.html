@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}{{ product.name }}{% endblock %}
+{% block content %}
+<div class="product-detail">
+    <img src="{{ product.image }}" alt="{{ product.name }}"/>
+    <h2>{{ product.name }}</h2>
+    <p style="color:#555;">{{ product.description }}</p>
+    <p><strong>Price: ${{ product.price }}</strong></p>
+    <a href="{{ url_for('index') }}" class="btn btn-primary back-link">&larr; Back to Products</a>
+    <a href="{{ url_for('edit_product', product_id=product.id) }}" class="btn btn-warning">Edit Product</a>
+    <a href="{{ url_for('delete_product', product_id=product.id) }}" class="btn btn-danger"
+       onclick="return confirm('Delete this product?')">Delete Product</a>
+</div>
+{% endblock %}
