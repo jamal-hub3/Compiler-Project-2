@@ -1,15 +1,15 @@
-[12:42:42] Compiler run started. templatesDir=templates  pythonPath=python_input/app.py
-[12:42:43] Python semantic analysis done: 22 issue(s).
-[12:42:43] Context extracted: []
-[12:42:43] Resolved extends index.jinja against base.jinja
-[12:42:43] Generated HTML for index.jinja (905 chars).
-[12:42:43] Resolved extends add_product.jinja against base.jinja
-[12:42:43] Generated HTML for add_product.jinja (1356 chars).
-[12:42:43] Resolved extends edit_product.jinja against base.jinja
-[12:42:43] Generated HTML for edit_product.jinja (1351 chars).
-[12:42:43] Saved generated output -> output\index.html
-[12:42:43] Saved generated output -> output\add_product.html
-[12:42:43] Saved generated output -> output\edit_product.html
-[12:42:43] Copied support file python_input\app.py -> output\app.py
-[12:42:43] Copied support file flask_app\static\style.css -> output\style.css
-[12:42:43] Copied support file flask_app\static\script.js -> output\script.js
+[13:27:04] Compiler run started. templatesDir=templates  pythonPath=python_input/app.py
+[13:27:04] Python semantic analysis done: 22 issue(s).
+[13:27:04] Context extracted: []
+[13:27:04] Resolved extends index.jinja against base.jinja
+[13:27:04] Generated HTML for index.jinja (905 chars).
+[13:27:04] Resolved extends add_product.jinja against base.jinja
+[13:27:04] Generated HTML for add_product.jinja (1356 chars).
+[13:27:04] Resolved extends edit_product.jinja against base.jinja
+[13:27:04] Generated HTML for edit_product.jinja (1351 chars).
+[13:27:04] Saved generated output -> output/index.html
+[13:27:04] Saved generated output -> output/add_product.html
+[13:27:04] Saved generated output -> output/edit_product.html
+[13:27:04] Copied support file python_input/app.py -> output/app.py
+[13:27:04] Copied support file flask_app/static/style.css -> output/style.css
+[13:27:04] Copied support file flask_app/static/script.js -> output/script.js
